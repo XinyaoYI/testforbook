@@ -1,0 +1,20 @@
+# Table of content
+# Learn more at https://jupyterbook.org/customize/toc.html
+#
+format: jb-book
+root: intro
+chapters:
+- file: content
+- file: openmp_c/parallel_for.ipynb
+  sections:
+  - file: build_rex.md
+- file: MulticoreMultiCPU
+  sections:
+  - file: MultiCoreMultiCPU/2-1MultiCoreMultiCPU.ipynb
+- file: SIMDVector
+- file: GPUAccel
+- file: markdown
+  sections:
+  - file: decision_tree/decision_tree.ipynb
+  - file: notebooks
+
